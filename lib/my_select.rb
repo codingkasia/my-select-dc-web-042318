@@ -10,5 +10,5 @@ end
 new
 end
 nums = [1,2,3,4,5]
-my_select(nums) do |num| num%2==0 
+my_select(nums) do |num| num%2 
 end 
