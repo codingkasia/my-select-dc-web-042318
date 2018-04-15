@@ -11,10 +11,5 @@ end
 new
 end
 nums = [1,2,3,4,5]
-my_select(nums) do |num|
-  if (num%2==0)
-    num == true 
-    else 
-      num == false 
-  end
-end
+my_select(nums) do |num| num%2==0 
+end 
