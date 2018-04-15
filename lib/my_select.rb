@@ -5,6 +5,7 @@ def my_select(arr)
   if (yield arr[index] == true )
     new << arr[index]
   end 
+  index +=1 
 end
 new
 end
