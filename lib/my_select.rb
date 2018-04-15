@@ -17,5 +17,12 @@ my_select(nums) do |num|
   end
 end
       
-
-[1,2,3,4,5].select { |num|  num.even?  }
+nums = [1,2,3,4,5]
+ while index < nums.length 
+  if nums[index].even?
+    puts "even"
+    else
+      puts "uneven!"
+      end
+      end 
+    
