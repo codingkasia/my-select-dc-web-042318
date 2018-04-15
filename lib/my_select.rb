@@ -4,8 +4,6 @@ def my_select(arr)
   while index < arr.length 
   if (yield arr[index] == true )
     new << arr[index]
-  else
-    puts "do nothing"
   end 
 end
 new
