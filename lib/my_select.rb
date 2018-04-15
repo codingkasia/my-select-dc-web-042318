@@ -18,11 +18,13 @@ my_select(nums) do |num|
 end
       
 nums = [1,2,3,4,5]
+index = 0 
  while index < nums.length 
   if nums[index].even?
     puts "even"
     else
       puts "uneven!"
       end
+      index += 1 
       end 
     
