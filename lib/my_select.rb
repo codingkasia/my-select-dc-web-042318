@@ -11,6 +11,7 @@ new
 end
 nums = [1,2,3,4,5]
 my_select(nums) do |num| 
+  puts num 
   if(num%2 == 0)
     true 
   end
