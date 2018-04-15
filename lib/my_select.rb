@@ -18,3 +18,4 @@ my_select(nums) do |num|
 end
       
 
+[1,2,3,4,5].select { |num|  num.even?  }
